@@ -3,7 +3,7 @@ export PRJ_DIR?=
 ifeq (${PRJ_DIR},)
   $(error Yuo Must Set PRJ_DIR)
 endif
-export OUTPUT_DEFINES_SV_FILE_NAME?=defs.sv
+export _OUTPUT_DEFINES_SV_FILE_NAME?=defs.sv
 export _OUTPUT_DEFINES_SV_FILE_DIR?=${BUILD_DIR}
 export _OUTPUT_DEFINES_SV_FILE?=${_OUTPUT_DEFINES_SV_FILE_DIR}/${OUTPUT_DEFINES_SV_FILE_NAME}
 export _DEFINES_PATH_MK?=${PRJ_DIR}/defines.mk
