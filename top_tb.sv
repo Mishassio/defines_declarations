@@ -6,9 +6,9 @@ module top_tb();
     initial begin
         $display("SV PRINTING A=%s",`STRINGIFY(`A));
         $display("SV PRINTING B=%s",`STRINGIFY(`B));
-        $display("SV PRINTING A=%s",`STRINGIFY(`C));
-        $display("SV PRINTING B=%s",`STRINGIFY(`D));
-        $display("SV PRINTING B=%s",`STRINGIFY(`E));
+        $display("SV PRINTING C=%s",`STRINGIFY(`C));
+        $display("SV PRINTING D=%s",`STRINGIFY(`D));
+        $display("SV PRINTING E=%s",`STRINGIFY(`E));
 
 
         $display("SV PRINTING A_0_0=%s",`STRINGIFY(`A_0_0));

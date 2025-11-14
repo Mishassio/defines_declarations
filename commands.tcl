@@ -1,8 +1,8 @@
 puts "TCL PRINTING A=$::env(A)"
 puts "TCL PRINTING B=$::env(B)"
-puts "TCL PRINTING A=$::env(C)"
-puts "TCL PRINTING B=$::env(D)"
-puts "TCL PRINTING B=$::env(E)"
+puts "TCL PRINTING C=$::env(C)"
+puts "TCL PRINTING D=$::env(D)"
+puts "TCL PRINTING E=$::env(E)"
 
 
 puts "TCL PRINTING A_0_0=$::env(A_0_0)"
